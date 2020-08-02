@@ -1,0 +1,18 @@
+name: config
+listen-port: 8000
+server-host: http://127.0.0.1:8000
+ldap-enable: false
+logger:
+  logs-dir: ./logs/
+  logs-name: system.log
+  log-level: debug
+common:
+  store:
+    mysql:
+      dbname: dbname
+      address: address
+      port: port
+      username: root
+      password: password
+      charset: utf8mb4
+      debug:  true
